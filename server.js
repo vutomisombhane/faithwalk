@@ -5,6 +5,6 @@ var app = express();
 
 app.get('/crush', function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('My crush is Zendaya Coleman');
+    res.end('Hello World');
 });
 app.listen(port);
